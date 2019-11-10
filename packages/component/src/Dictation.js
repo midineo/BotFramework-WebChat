@@ -33,7 +33,7 @@ const Dictation = ({
   ]);
 
   const handleDictate = useCallback(
-    ({ result: { transcript } = {} }) => {
+    ({ result: { confidence, transcript } = {} }) => {
       if (dictateState === DICTATING || dictateState === STARTING) {
         setDictateInterims([]);
         setDictateState(IDLE);
@@ -41,7 +41,7 @@ const Dictation = ({
 
         if (transcript) {
           setSendBox(transcript);
-          submitSendBox('speech');
+          submitSendBox('speech', { channelData: { speech: { alternatives: [{ confidence, transcript }] } } });
           startSpeakingActivity();
         }
       }
