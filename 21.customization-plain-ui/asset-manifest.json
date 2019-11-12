@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/BotFramework-WebChat/21.customization-plain-ui/static/js/main.1bfc10df.chunk.js",
+    "main.js.map": "/BotFramework-WebChat/21.customization-plain-ui/static/js/main.1bfc10df.chunk.js.map",
+    "runtime~main.js": "/BotFramework-WebChat/21.customization-plain-ui/static/js/runtime~main.6c454de8.js",
+    "runtime~main.js.map": "/BotFramework-WebChat/21.customization-plain-ui/static/js/runtime~main.6c454de8.js.map",
+    "static/js/2.e9af63ee.chunk.js": "/BotFramework-WebChat/21.customization-plain-ui/static/js/2.e9af63ee.chunk.js",
+    "static/js/2.e9af63ee.chunk.js.map": "/BotFramework-WebChat/21.customization-plain-ui/static/js/2.e9af63ee.chunk.js.map",
+    "index.html": "/BotFramework-WebChat/21.customization-plain-ui/index.html",
+    "precache-manifest.cb01a5d5a4bd6818aee1ec5c333a3301.js": "/BotFramework-WebChat/21.customization-plain-ui/precache-manifest.cb01a5d5a4bd6818aee1ec5c333a3301.js",
+    "service-worker.js": "/BotFramework-WebChat/21.customization-plain-ui/service-worker.js"
+  }
+}
